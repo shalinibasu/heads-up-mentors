@@ -51,6 +51,17 @@ font-style: normal;
   .main-stat2{
     font-size:35px;
   }
+
+  .exec-img{
+    max-width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .exec-section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -87,6 +98,11 @@ font-style: normal;
 
   .main-stat2{
     font-size:35px;
+  }
+  .exec-img{
+    max-width: 175px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
   }
 }
 
