@@ -13,11 +13,33 @@ font-style: normal;
   height: auto;
 
 }
-
+@media screen and (min-width: 1900px) {
+  .head-content{
+    margin-right: 700px;
+  }
+}
 
 @media screen and (min-width: 621px) {
-  .tool{
-    margin-left: 1000px;
+  .topnav{
+  position: absolute;
+  right: 0px;
+  }
+
+  .top{
+    height: 110px;
+  }
+
+.head-content{
+  margin-right: 450px;
+}
+
+
+
+.about-tool{
+  margin-right: 30px;
+}
+  .open-home{
+    padding-top: 120px;
   }
   .topnav a {
     float: left;
@@ -77,9 +99,20 @@ font-style: normal;
   }
 }
 
+@media screen and (max-width: 1150px) {
+.head-content{
+  margin-right: 0px;
+}
+
+}
+
 @media screen and (max-width: 620px) {
   .tool{
     margin-left: 0px;
+  }
+
+  .open-home{
+    padding-top: 50px;
   }
   .topnav a {
     float: left;
@@ -174,7 +207,7 @@ font-style: normal;
 
 .open-home{
   background-color: #E5D5EB;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -281,8 +314,8 @@ a.stat-button{
 } */
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: white;
+  color: #FDD01D;
 }
 
 .topnav a.active {
