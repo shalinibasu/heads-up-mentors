@@ -15,7 +15,14 @@ font-style: normal;
 }
 @media screen and (min-width: 1900px) {
   .head-content{
-    margin-right: 700px;
+    margin-right: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .head-content{
+    margin-right: 300px;
+    margin-left: px;
   }
 }
 
@@ -30,7 +37,7 @@ font-style: normal;
   }
 
 .head-content{
-  margin-right: 450px;
+  margin-right: 350px;
 }
 
 
